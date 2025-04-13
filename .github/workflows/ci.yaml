@@ -15,10 +15,10 @@ jobs:
 
     steps:
     - name: Checkout code new
-      user: actions/checkout@v2
+      uses: actions/checkout@v2
 
     - name: Set up Python
-      user: actions/setup-python@v2
+      uses: actions/setup-python@v2
       with:
         python-version: "3.9"
 
